@@ -133,12 +133,4 @@ Successfully installed Flask-Mail-0.10.0
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.124.150:5000
-Press CTRL+C to quit
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 959-575-390
-127.0.0.1 - - [18/May/2025 11:12:55] "GET /login HTTP/1.1" 200 -
-127.0.0.1 - - [18/May/2025 11:12:55] "GET /favicon.ico HTTP/1.1" 404 -
-127.0.0.1 - - [18/May/2025 11:13:21] "POST /login HTTP/1.1" 200 -
+
