@@ -23,12 +23,14 @@ below dependencies for Ubuntu/Linux systems.
 
 below for windows
 
-first go to the directory where the app.py is present & run commands one by one below.
+first download or clone the repository to local
+
+then go to the directory where the app.py is present & run commands one by one below.
 
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>python -m venv venv
-
+-----------------------------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>venv\Scripts\activate
-
+-----------------------------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>pip install flask
 Collecting flask
   Using cached flask-3.1.1-py3-none-any.whl.metadata (3.0 kB)
@@ -59,7 +61,7 @@ Successfully installed blinker-1.9.0 click-8.2.0 colorama-0.4.6 flask-3.1.1 itsd
 
 [notice] A new release of pip is available: 24.0 -> 25.1.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
-
+---------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>pip install Flask Flask-SQLAlchemy
 Requirement already satisfied: Flask in c:\users\sathish\documents\projects\new_app-main\venv\lib\site-packages (3.1.1)
 Collecting Flask-SQLAlchemy
@@ -86,7 +88,7 @@ Successfully installed Flask-SQLAlchemy-3.1.1 greenlet-3.2.2 sqlalchemy-2.0.41 t
 
 [notice] A new release of pip is available: 24.0 -> 25.1.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
-
+-----------------------------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>pip install Flask Flask-Bcrypt
 Requirement already satisfied: Flask in c:\users\sathish\documents\projects\new_app-main\venv\lib\site-packages (3.1.1)
 Collecting Flask-Bcrypt
@@ -107,7 +109,7 @@ Successfully installed Flask-Bcrypt-1.0.1 bcrypt-4.3.0
 
 [notice] A new release of pip is available: 24.0 -> 25.1.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
-
+-----------------------------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>pip install Flask Flask-Mail
 Requirement already satisfied: Flask in c:\users\sathish\documents\projects\new_app-main\venv\lib\site-packages (3.1.1)
 Collecting Flask-Mail
@@ -125,7 +127,7 @@ Successfully installed Flask-Mail-0.10.0
 
 [notice] A new release of pip is available: 24.0 -> 25.1.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
-
+-----------------------------------------------------
 (venv) C:\Users\Sathish\Documents\Projects\new_app-main>python app.py
  * Serving Flask app 'app'
  * Debug mode: on
